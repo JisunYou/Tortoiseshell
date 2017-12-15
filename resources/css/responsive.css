@@ -1,0 +1,98 @@
+@media only screen and (max-width: 960px) {
+	header {
+		height: 22rem;
+	}
+	.container {
+		width: 100%;
+	}
+	.top {
+		margin: 0;
+	}
+	.maincopy {
+		margin-top: 5rem;
+		margin-right: 2rem;
+	}
+	.maincopy p {
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.information .title {
+		width: initial;
+		padding: 0.5rem 0;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 610px) {
+	.company p {
+		display: none;
+	}
+}
+@media only screen and (max-width: 490px) {
+	header {
+		height: 17rem;
+		background-position: left;
+	}
+	.mobile-nav {
+		display: flex;
+	}
+	.nav {
+		display: none;
+	}
+	.maincopy {
+		display: inline;
+		width: 100%;
+		margin-top: 9rem;
+	}
+	.maincopy p {
+		display: block;
+		padding: 1rem 0;
+		font-size: 1rem;
+		font-weight: bold;
+		text-align: center;
+	}
+	.services {
+		margin-top: 3.77rem;
+		flex-direction: column;
+		align-items: center;
+	}
+	.service {
+		font-size: 0.77rem;
+		height: initial;
+	}
+	.service:nth-child(1), .service:nth-child(2) {
+		margin-bottom: 1.54rem;
+	}
+	.service .image {
+		height: initial;
+		margin-bottom: 1.3rem;
+	}
+	.information {
+		margin-top: 3.77rem;
+		flex-direction: column;
+	}
+	.philosopy, .appointments {
+		width: 100%;
+	}
+	.philosopy {
+		margin-right: 0;
+		margin-bottom: 4rem;
+	}
+	.information .info {
+		font-size: 0.77rem;
+	}
+	footer {
+		justify-content: center;
+	}
+	footer .container {
+		justify-content: center;
+		padding: 4rem 0;
+	}
+	.logo {
+		margin-right: 0;
+	}
+	footer p {
+		display: none;
+	}
+}

@@ -1,0 +1,140 @@
+html {
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+header {
+	background-image: url("../images/glasses-bg.png");
+	background-size: cover;
+	background-position: top;
+	margin:0;
+	padding: 0;
+	height: 31rem;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+header .container {
+	display: flex;
+	flex-direction: column;
+}
+.top {
+	display: flex;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem; 
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: cadetblue;
+	color: white;
+	justify-content: space-between;
+}
+.company {
+	display: flex;
+	font-size: 1rem;
+	align-items: center;
+	margin-left: 2rem;
+}
+.logo {
+	height: 1.5rem;
+	margin-right: 1rem;
+}
+.mobile-nav {
+	display: none;
+	align-items: center;
+	padding-right: 2rem;
+}
+.nav {
+	display: flex;
+	align-items: center;
+}
+.nav ul {
+	display: flex;
+	list-style: none;
+}
+.nav li {
+	margin-right: 2rem;
+	font-size: 1rem;
+}
+.maincopy {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10rem;
+}
+.maincopy p {
+	display: inline-block;
+	padding: 1.5rem 5rem;
+	background-color: white;
+	font-size: 2rem;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.2;
+}
+/*services*/
+.services {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+	text-align: center;
+}
+.service {
+	width: 5rem;
+	height: 8rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+}
+.service .image {
+	height: 6rem;
+}
+.service img {
+	width: 5rem;
+}
+.service:nth-child(1) img {
+	width: 3.5rem;
+}
+/*information*/
+.information {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+.philosopy, .appointments {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+}
+.philosopy {
+	margin-right: 5%;
+}
+.information .title {
+	width: 10rem;
+	padding: 0.5rem 1.25rem;
+	background-color: cadetblue;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.information .info {
+	margin-top: 1rem;
+}
+
+/*footer*/
+footer {
+	display: flex;
+	background-color: azure;
+}
+footer .container {
+	display: flex;
+	align-items: center;
+	padding: 4rem 0 4rem 4rem;
+}
